@@ -64,6 +64,11 @@ body {
       hsl(0 0% 0% /0)
     );
   }
+  .details {
+    text-align: start;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
 @media (max-width: 850px){
@@ -80,6 +85,9 @@ body {
       hsl(0 0% 0% /.75) 60%,
       hsl(0 0% 0% /1)
     );
+  }
+  .details {
+    text-align: start;
   }
 }
 
