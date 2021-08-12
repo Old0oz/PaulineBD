@@ -87,7 +87,9 @@ body {
     );
   }
   .details {
-    text-align: start;
+    /* text-align: start; */
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -95,12 +97,6 @@ h1 {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.details {
-  text-align: start;
-  display: flex;
-  justify-content: space-evenly;
-}
-
 
 @keyframes move_chicken {
   from {
